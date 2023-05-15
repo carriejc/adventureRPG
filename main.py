@@ -29,7 +29,7 @@ text = font.render("Welcome to our game", True, (0, 0, 0))
 textRect = text.get_rect()
 textRect.center = (Constants.WIDTH // 2, 20 // 2)
 
-
+#   Updates
 def update():
   WINDOW.fill(Constants.BACKGROUND_COLOR)
   fpsClock.tick(Constants.FPS)
